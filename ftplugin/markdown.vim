@@ -28,7 +28,6 @@
 "d-+
 
 let s:headerExpr = '\v^#'
-setl commentstring=<!--%s-->
 
 "0 if not found
 fu! b:Markdown_GetLineNumCurHeader()

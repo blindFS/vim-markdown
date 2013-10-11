@@ -6,6 +6,8 @@
 "
 " original version from Steve Losh's gist: https://gist.github.com/1038710
 
+setl commentstring=<!--%s-->
+
 func! Foldexpr_markdown(lnum)
     if (a:lnum == 1)
         let l0 = ''
